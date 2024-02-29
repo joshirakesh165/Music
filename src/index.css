@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    /* background-color: #E99d72; */
+    height: 100%;
+    overflow: hidden;
+}
+.bg-image {
+    background-image: url('/public/peakpx.jpg');
+}
+
+.h-95-p {
+    height: 95%;
+}
+.h-90-p {
+    height: 90%;
+}
+.w-90-p {
+    width: 90%;
+}
+.h-10-p {
+    height: 10%;
+}
+.w-90-p {
+    width: 10%;
+}
+.rhap_container {
+    box-shadow: none !important;
+}
